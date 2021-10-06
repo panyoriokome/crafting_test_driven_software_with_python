@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.1 (Python 3.9.6 on linux)" generated="20211006 19:55:16.443" rpa="false" schemaversion="2">
+<suite id="s1" name="Searchgoogle" source="/home/deepstation/Documents/workspace/git/crafting_test_driven_software_with_python/robot_e2e/searchgoogle.robot">
+<test id="s1-t1" name="Search On Google">
+<kw name="Open Browser">
+<arg>http://www.google.com</arg>
+<arg>Chrome</arg>
+<msg timestamp="20211006 19:55:16.465" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20211006 19:55:16.465" endtime="20211006 19:55:16.465"/>
+</kw>
+<kw name="Wait Until Page Contains Element">
+<arg>cnsw</arg>
+<status status="NOT RUN" starttime="20211006 19:55:16.467" endtime="20211006 19:55:16.467"/>
+</kw>
+<kw name="Select Frame">
+<arg>//iframe</arg>
+<status status="NOT RUN" starttime="20211006 19:55:16.468" endtime="20211006 19:55:16.468"/>
+</kw>
+<kw name="Submit Form">
+<arg>//form</arg>
+<status status="NOT RUN" starttime="20211006 19:55:16.469" endtime="20211006 19:55:16.470"/>
+</kw>
+<kw name="Input Text">
+<arg>name=q</arg>
+<arg>Stephen\ Hawking</arg>
+<status status="NOT RUN" starttime="20211006 19:55:16.472" endtime="20211006 19:55:16.472"/>
+</kw>
+<kw name="Press Keys">
+<arg>name=q</arg>
+<arg>ENTER</arg>
+<status status="NOT RUN" starttime="20211006 19:55:16.473" endtime="20211006 19:55:16.473"/>
+</kw>
+<kw name="Page Should Contain">
+<arg>Wikipedia</arg>
+<status status="NOT RUN" starttime="20211006 19:55:16.475" endtime="20211006 19:55:16.475"/>
+</kw>
+<kw name="Close Window">
+<status status="NOT RUN" starttime="20211006 19:55:16.476" endtime="20211006 19:55:16.476"/>
+</kw>
+<status status="FAIL" starttime="20211006 19:55:16.464" endtime="20211006 19:55:16.476">No keyword with name 'Open Browser' found.</status>
+</test>
+<status status="FAIL" starttime="20211006 19:55:16.444" endtime="20211006 19:55:16.477"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Searchgoogle">Searchgoogle</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20211006 19:55:16.441" level="ERROR">Error in file '/home/deepstation/Documents/workspace/git/crafting_test_driven_software_with_python/robot_e2e/searchgoogle.robot' on line 2: Non-existing setting 'Library SeleniumLibrary'.</msg>
+</errors>
+</robot>
